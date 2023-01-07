@@ -37,9 +37,6 @@ const Settings = () => {
   const add_social = t("add_social");
   return (
     <div style={{ marginTop: "32px" }}>
-      setting
-      <button onClick={fetchUsers}>fetch</button>
-      {/* <button onClick={postUser}>post</button> */}
       <Item elevation={1}>
         {inBrowser && (
           <>
